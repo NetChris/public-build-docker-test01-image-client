@@ -1,0 +1,9 @@
+---
+stages:
+  - Test
+
+Test:
+  image: registry.gitlab.com/cssl/netchris/public/build/docker/test01-image/base:master-104837926
+  stage: Test
+  script:
+    - echo "Hello!"
